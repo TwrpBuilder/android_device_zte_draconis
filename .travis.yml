@@ -30,5 +30,5 @@ deploy:
   file: $HOME/twrp/*.img
   on:
     tags: false
-    repo: TwrpBuilder/android_device_zte_draconis
+    repo: TwrpBuilder/device_zte_draconis
     branch: master
