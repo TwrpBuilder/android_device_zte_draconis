@@ -32,3 +32,7 @@ deploy:
     tags: false
     repo: TwrpBuilder/device_zte_draconis
     branch: master
+
+branches:
+  except:
+    - /^(?i:untagged)-.*$/
